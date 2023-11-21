@@ -6,6 +6,7 @@ import Projects from "./components/Projects/Projects";
 
 import PropductDesigner from "./components/ProductDesigner/PropductDesigner";
 import Service from "./components/Service/Service";
+import Education from "./components/Education/Education";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Service />
       <Blogs />
       <Projects />
+      <Education />
     </>
   );
 }
