@@ -1,0 +1,15 @@
+.service{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h2{
+    text-align: center;
+}
+
+.serviceCard{
+    display: flex;
+    gap: 144px;
+}
