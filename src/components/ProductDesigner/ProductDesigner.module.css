@@ -37,3 +37,8 @@
   font-weight: 400;
   line-height: 4rem;
 }
+
+.photos {
+  display: flex;
+  gap: 16px;
+}
