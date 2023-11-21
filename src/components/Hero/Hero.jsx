@@ -1,9 +1,7 @@
-import React from 'react'
-import styles from "./Hero.module.css"
+import React from "react";
+import styles from "./Hero.module.css";
 const Hero = () => {
-  return (
-    <div>Hero</div>
-  )
-}
+  return <div></div>;
+};
 
-export default Hero
+export default Hero;

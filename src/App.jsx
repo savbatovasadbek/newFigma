@@ -12,22 +12,21 @@ import Service from "./components/Service/Service";
 import Testimonials from "./components/Testimonials/Testimonials";
 
 import Education from "./components/Education/Education";
-
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
     <>
       <Navbar />
-       <Hero/>
+      <Hero />
       <Header />
       <PropductDesigner />
       <Service />
-
-      <Testimonials/>
-      <Blogs />
-
       <Projects />
+      <Blogs />
       <Education />
+      <Testimonials />
+      <Footer />
     </>
   );
 }

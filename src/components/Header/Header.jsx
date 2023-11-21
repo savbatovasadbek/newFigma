@@ -5,7 +5,7 @@ import smilingBrother from "../../assets/images/smilingBrother.png";
 const Header = () => {
   return (
     <>
-      <div className='container'>
+      <div className="container" style={{ paddingTop: "150px" }}>
         <div className={styles.bigDiv}>
           <div className={styles.leftSide}>
             <h2 className={styles.i}>I design products</h2>
@@ -21,7 +21,7 @@ const Header = () => {
               </button>
             </div>
           </div>
-          <img src={smilingBrother} alt='' />
+          <img src={smilingBrother} alt="" />
         </div>
       </div>
     </>
