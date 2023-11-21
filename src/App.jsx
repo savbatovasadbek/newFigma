@@ -1,4 +1,5 @@
 import "./App.css";
+import Hero from "./components/Hero/Hero";
 import Header from "./components/Header/Header";
 import Blogs from "./components/Blogs/Blogs";
 import Navbar from "./components/Navbar/Navbar";
@@ -17,6 +18,7 @@ function App() {
   return (
     <>
       <Navbar />
+       <Hero/>
       <Header />
       <PropductDesigner />
       <Service />
