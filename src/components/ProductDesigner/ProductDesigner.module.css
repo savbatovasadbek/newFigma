@@ -2,7 +2,6 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  border: 0.2rem solid red;
   width: 121.5rem;
   height: 32rem;
   font-family: roboto;
@@ -37,8 +36,16 @@
   font-weight: 400;
   line-height: 4rem;
 }
-
+.leftSide {
+  display: flex;
+  gap: 16px;
+}
 .photos {
   display: flex;
   gap: 16px;
+}
+.rightSide {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
