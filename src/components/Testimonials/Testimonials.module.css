@@ -1,0 +1,14 @@
+.container {
+    max-width: 1215px;
+}
+
+.testimonial>p {
+    margin-top: 80px;
+    color: #4353FF;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
