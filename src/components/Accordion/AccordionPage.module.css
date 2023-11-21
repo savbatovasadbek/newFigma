@@ -1,0 +1,44 @@
+.accordionPageBg {
+  background-color: black;
+  padding: 85px 0;
+  color: #fff;
+}
+
+.accordionTop {
+  text-align: center;
+}
+
+.accordionTop span {
+  color: #ff8a56;
+  font-family: Roboto;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 22px; /* 100% */
+  letter-spacing: 4px;
+  text-transform: uppercase;
+}
+
+.accordionTop h2 {
+  font-family: Roboto;
+  font-size: 54px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 59.4px; /* 110% */
+  letter-spacing: 1px;
+  margin-top: 20px;
+}
+
+.accordionSpace {
+  margin-top: 130px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 50px;
+  /* column-gap: 50px; */
+}
+
+.accordionSpace div {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}

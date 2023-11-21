@@ -1,20 +1,22 @@
 import React, { useState } from "react";
 import styles from "./Accordion.module.css";
+import { SlArrowDown } from "react-icons/sl";
 
 export default function Accordion({ children }) {
   const [isActive, setIsActive] = useState(false);
 
   const toggleAccordion = () => {
-    setIsActive(!setIsActive);
+    setIsActive(!isActive);
   };
   return (
-    <div className="accordion">
-      <div className="accordion-header" onClick={toggleAccordion}>
+    <div className={styles.accordion}>
+      <div className={styles.title} onClick={toggleAccordion}>
         <h3>{children}</h3>
-        <span>{isActive ? "▼" : "►"}</span>
+        <SlArrowDown  className={styles.icon}/>
+        {/* <span>{isActive ? "▼" : "►"}</span> */}
       </div>
       {isActive && (
-        <div className="accordion-content">
+        <div className={styles.content}>
           <p>
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum
             eligendi iure voluptas reprehenderit quo explicabo natus quae nulla
@@ -23,6 +25,8 @@ export default function Accordion({ children }) {
           </p>
         </div>
       )}
+      {/* <span className={styles.underline}></span> */}
+      <hr className={styles.underline} />
     </div>
   );
 }
