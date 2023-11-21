@@ -17,7 +17,7 @@ const Service = () => {
             <img src={img1} alt="img1" />
           </div>
           <h4>What I can do for you</h4>
-          <p>Faster, better products that your users love. Here's all the services I provide:</p>
+          <p>Faster, better products that your <br /> users love. Here's all the services I <br /> provide:</p>
           <ul>
             <li>
               Design Strategy
@@ -38,7 +38,7 @@ const Service = () => {
             <img src={img2} alt="img2" />
           </div>
           <h4>Applications I'm fluent in</h4>
-          <p>Every designer needs the right tools to do the perfect job. Thankfully, I'm multilingual.</p>
+          <p>Every designer needs the right <br /> tools to do the perfect job. <br /> Thankfully, I'm multilingual.</p>
           <ul>
             <li>
               Sketch
@@ -59,7 +59,7 @@ const Service = () => {
             <img src={img3} alt="img3" />
           </div>
           <h4>What you can expect</h4>
-          <p>I design products that are more than pretty. I make them shippable and usable.</p>
+          <p>I design products that are more <br /> than pretty. I make them shippable <br /> and usable.</p>
           <ul>
             <li>
               Clean and functional
