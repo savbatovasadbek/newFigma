@@ -5,9 +5,9 @@ import img2 from "../../assets/images/service2.svg"
 import img3 from "../../assets/images/service3.svg"
 
 const Service = () => {
-<<<<<<< HEAD
-  return <div></div>;
-=======
+
+  
+
   return (
     <div className={styles.service}>
       <h3>SERVICES</h3>
@@ -80,7 +80,6 @@ const Service = () => {
       </div>
     </div>
   );
->>>>>>> 981cc790b0e59b599ac5bd329f9ec7942cbc705f
 };
 
 export default Service;

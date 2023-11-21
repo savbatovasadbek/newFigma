@@ -13,11 +13,8 @@ function App() {
       <Navbar />
       <PropductDesigner />
       <Service />
-<<<<<<< HEAD
       <Testimonials/>
-=======
       <Projects />
->>>>>>> 981cc790b0e59b599ac5bd329f9ec7942cbc705f
     </>
   );
 }
