@@ -5,6 +5,9 @@ import img2 from "../../assets/images/service2.svg"
 import img3 from "../../assets/images/service3.svg"
 
 const Service = () => {
+
+  
+
   return (
     <div className={styles.service}>
       <h3>SERVICES</h3>
