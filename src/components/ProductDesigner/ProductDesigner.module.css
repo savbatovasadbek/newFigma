@@ -42,6 +42,7 @@
 }
 .photos {
   display: flex;
+  margin-bottom: 7.9rem;
   gap: 16px;
 }
 .rightSide {
