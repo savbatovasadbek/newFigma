@@ -1,4 +1,5 @@
 import "./App.css";
+import Header from "./components/Header/Header";
 import Blogs from "./components/Blogs/Blogs";
 import Navbar from "./components/Navbar/Navbar";
 
@@ -16,6 +17,7 @@ function App() {
   return (
     <>
       <Navbar />
+      <Header />
       <PropductDesigner />
       <Service />
 
