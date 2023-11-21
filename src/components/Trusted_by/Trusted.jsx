@@ -6,7 +6,8 @@ import styles from "./Trusted.module.css";
 function Trusted() {
   return (
     <>
-    <h5>Trusted by</h5>
+    <p className={styles.trusted_by}>Trusted by</p>
+    
     
     </>
   )
